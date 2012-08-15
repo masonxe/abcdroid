@@ -1,0 +1,30 @@
+<f:view xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:pm="http://primefaces.org/mobile" contentType="text/html">
+	<pm:page
+		title="PrimeFaces Mobile Tutorial - Simple Navigation">
+		<pm:view id="viewChapter1">
+			<pm:header title="First Chapter" />
+			<pm:content>
+				<h:form>
+					<p:commandButton value="Go to second chapter"
+						action="pm:viewChapter2" />
+				</h:form>
+   				This is the first chapter
+   			</pm:content>
+		</pm:view>
+		<pm:view id="viewChapter2">
+			<pm:header title="Second Chapter" />
+			<pm:content>
+				<h:form>
+					<p:commandButton value="Go to first chapter"
+						action="pm:viewChapter1" />
+				</h:form>
+                This is the second chapter
+            </pm:content>
+		</pm:view>
+	</pm:page>
+</f:view>
