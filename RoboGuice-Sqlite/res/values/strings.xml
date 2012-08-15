@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EjmRoboGuiceSqlite</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">EjmRoboGuiceSqlite</string>
+    
+    <!-- Etiquetas de formulario -->
+    <string name="dni">DNI :</string>
+    <string name="apPaterno">Ap. Paterno :</string>
+    <string name="apMaterno">Ap. Materno :</string>
+    <string name="nombres">Nombres:</string>
+    <string name="btnRegistrar">Guardar</string>
+    <string name="btnIrRegistro">Ir a Registro</string>
+    <string name="btnIrListado">Ver Listado</string>
+</resources>

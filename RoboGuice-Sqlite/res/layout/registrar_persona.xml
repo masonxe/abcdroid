@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/lblDni" android:text="@string/dni"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <EditText android:hint="" android:id="@+id/txtDni" android:inputType="number" android:maxLength="8"
+        android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10"  >
+    	<requestFocus />
+    </EditText>
+    
+    <TextView android:id="@+id/lblApPaterno" android:text="@string/apPaterno"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <EditText android:hint="" android:id="@+id/txtApPaterno"
+        android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10"  >
+        <requestFocus />
+    </EditText>
+    
+    <TextView android:id="@+id/lblApMaterno" android:text="@string/apMaterno"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <EditText android:hint="" android:id="@+id/txtApMaterno"
+        android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10"  >
+        <requestFocus />
+    </EditText>
+    
+    <TextView android:id="@+id/lblNombres" android:text="@string/nombres"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+    <EditText android:hint="" android:id="@+id/txtNombres"
+        android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10"  >
+        <requestFocus />
+    </EditText>
+    
+
+    <LinearLayout android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+        
+        <Button android:id="@+id/btnRegistrar" android:text="@string/btnRegistrar"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+        <Button android:id="@+id/btnIrAListado" android:text="@string/btnIrListado"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+
+</LinearLayout>
